@@ -1,6 +1,10 @@
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Check check = new Check();
+        Input.inputPersonCnt(check);
+        Input.inputCheck(check);
+        check.printCheck();
     }
 }
